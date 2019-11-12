@@ -5,9 +5,11 @@ import store from './store'
 import { sync } from 'vuex-router-sync'
 import App from 'components/app-root'
 import { FontAwesomeIcon } from './icons'
+import { ChangeMyColor } from './shared/directive/color-directive'
 
 // Registration of global components
 Vue.component('icon', FontAwesomeIcon)
+Vue.directive('change-color', ChangeMyColor)
 
 Vue.prototype.$http = axios
 
