@@ -10,6 +10,7 @@ import Routes from 'components/Routes'
 import Child from 'components/Child'
 import ListRendering from 'components/Advanced/ListRendering'
 import Computed from 'components/Advanced/Computed'
+import Mixins from 'components/Advanced/Mixins'
 
 export const routes = [
   { name: 'home', path: '/', component: HomePage, display: 'Home', icon: 'home' },
@@ -31,5 +32,6 @@ export const routes = [
     ]
   },
   { name: 'ListRendering', path: '/ListRendering', component: ListRendering, display: 'ListRendering', icon: 'list' },
-  { name: 'Computed', path: '/Computed', component: Computed, display: 'Computed', icon: 'graduation-cap' }
+  { name: 'Computed', path: '/Computed', component: Computed, display: 'Computed', icon: 'graduation-cap' },
+  { name: 'Mixins', path: '/Mixins', component: Mixins, display: 'Mixins', icon: 'graduation-cap' }
 ]
