@@ -4,6 +4,10 @@ import HomePage from 'components/home-page'
 import Hello from 'components/hello'
 import About from 'components/about'
 import Directives from 'components/Directives'
+import DataBinding from 'components/DataBinding'
+import Models from 'components/Models'
+import Routes from 'components/Routes'
+import Child from 'components/Child'
 import ListRendering from 'components/ListRendering'
 
 export const routes = [
@@ -12,6 +16,18 @@ export const routes = [
   { name: 'counter', path: '/counter', component: CounterExample, display: 'Counter', icon: 'graduation-cap' },
   { name: 'fetch-data', path: '/fetch-data', component: FetchData, display: 'Data', icon: 'list' },
   { name: 'Hello', path: '/Hello', component: Hello, display: 'Hello Vue', icon: 'info' },
-  { name: 'Directives', path: '/Directives', component: Directives, display: 'Directives', icon: 'graduation-cap' },
+  { name: 'Directives', path: '/Directives', component: Directives, display: 'Directives', icon: 'list' },
+  { name: 'DataBinding', path: '/DataBinding', component: DataBinding, display: 'DataBinding', icon: 'fas fa-expand' },
+  { name: 'Models', path: '/Models', component: Models, display: 'Models', icon: 'clone' },
+  {
+    name: 'Routes',
+    path: '/Routes',
+    component: Routes,
+    display: 'Routes',
+    icon: 'router',
+    children: [
+      { path: 'Child/:id', component: Child }
+    ]
+  },
   { name: 'ListRendering', path: '/ListRendering', component: ListRendering, display: 'ListRendering', icon: 'list' }
 ]
