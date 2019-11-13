@@ -13,6 +13,7 @@ import Computed from 'components/Advanced/Computed'
 import Mixins from 'components/Advanced/Mixins'
 import Custom from 'components/Deep/Custom'
 import Filters from 'components/Deep/Filters'
+import Transitions from 'components/Deep/Transitions'
 
 export const routes = [
   { name: 'home', path: '/', component: HomePage, display: 'Home', icon: 'home' },
@@ -37,5 +38,6 @@ export const routes = [
   { name: 'Computed', path: '/Computed', component: Computed, display: 'Computed properties', icon: 'graduation-cap' },
   { name: 'Mixins', path: '/Mixins', component: Mixins, display: 'Mixins', icon: 'graduation-cap' },
   { name: 'Custom', path: '/Custom', component: Custom, display: 'Custom Directives', icon: 'info' },
-  { name: 'Filters', path: '/Filters', component: Filters, display: 'Filters', icon: 'info' }
+  { name: 'Filters', path: '/Filters', component: Filters, display: 'Filters', icon: 'info' },
+  { name: 'Transitions', path: '/Transitions', component: Transitions, display: 'Transitions', icon: 'info' }
 ]
