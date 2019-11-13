@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <section>
     <h1 v-once>{{msg}}</h1>
     <h3>Creating a custom directive</h3>
     <p>It's recommended to have it in a shared file</p>
@@ -8,7 +8,7 @@
     <p>Then specify the directive name on the element starting with v-</p>
     <input type="text" v-change-color="color" /><br />
     <input type="text" v-model="test" />
-  </article>  
+  </section>  
 </template>
 
 <script>

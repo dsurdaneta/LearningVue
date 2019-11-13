@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <section>
     <h1>{{msg}}</h1>
     <h3>v-model: To do a two way binding</h3>
     <span>Bind to a data property</span>
@@ -22,7 +22,7 @@
     <br />
     You are: {{rad}}
     <br />
-  </article>
+  </section>
 </template>
 
 <script>

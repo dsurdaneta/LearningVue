@@ -1,10 +1,9 @@
 <template>
-  <details>
+  <div>
     <h1>{{msg}}</h1>
     <h3>Child Route Component</h3>
     Your current route is: {{RouteValue}}
-
-  </details>
+  </div>
 </template>
 
 <script>

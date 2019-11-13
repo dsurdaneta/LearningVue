@@ -1,11 +1,11 @@
 <template>
-  <article>
+  <section>
     <h1 v-once>{{msg}}</h1>
     <h3>Creating Filters</h3>
     <p>{{test | AllCaps}}</p>
     <h3>Filters in v-bind</h3>
     <input type="text" v-bind:value="test" />
-  </article>
+  </section>
 </template>
 
 <script>

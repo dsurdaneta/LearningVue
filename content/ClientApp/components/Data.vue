@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <section>
     <h1>{{msg}}</h1>
     <h3>Contains the properties used through the component</h3>
     <span>Can be accessed via Interpolation : {{simple}}</span>
@@ -10,7 +10,7 @@
     <br />
     <h3>Can be also access complex objects</h3>
     <span>Here is the value: {{complex.first}}</span><br />
-  </article>
+  </section>
 </template>
 
 <script>

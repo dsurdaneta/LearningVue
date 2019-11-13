@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <section>
     <h1>{{msg}}</h1>
     <h3>v-bind: To bind values to html attributes</h3>
     <span v-bind:class="'redCss'">Make me red!</span>
@@ -14,7 +14,7 @@
     <h3>short hand version</h3>
     <span :class="'blueCss'">v-bind shot verison</span>
     <br />
-  </article>
+  </section>
 </template>
 
 <script>

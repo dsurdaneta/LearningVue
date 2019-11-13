@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <section>
     <h1 v-once>{{msg}}</h1>
     <h3>Handling animations</h3>
     <p>Use the transition element</p>
@@ -7,7 +7,7 @@
       <p v-if="enableFade">Test animation</p>
     </transition>
     <button v-on:click="enableFade = !enableFade">Toggle</button>
-  </article>
+  </section>
 </template>
 
 <script>

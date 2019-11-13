@@ -1,9 +1,9 @@
 <template>
-  <article>
+  <section>
     <h1>{{msg}}</h1>
     <h3>A great way to share functionality across pages</h3>
     <button @click="CallMixinData()">Call Mixin</button>
-  </article>
+  </section>
 </template>
 
 <script>

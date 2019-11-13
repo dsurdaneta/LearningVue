@@ -1,5 +1,5 @@
 <template>
-  <article>
+  <section>
     <h1>{{msg}}</h1>
     <h3>Computed Properties are a great way to cache data</h3>
     <p>The value is: {{val}}</p>
@@ -8,7 +8,7 @@
     <h3>Computed properties with get/set</h3>
     <p>{{active}}</p>
     <button @click="updateComputed()">Update Value</button>
-  </article>
+  </section>
 </template>
 
 <script>
