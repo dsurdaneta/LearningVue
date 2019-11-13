@@ -1,5 +1,5 @@
-﻿<template>
-    <div>
+<template>
+    <article>
         <h1>Counter</h1>
 
         <p>This is a simple example of a Vue.js component & Vuex</p>
@@ -13,7 +13,7 @@
 
         <button type="button" class="btn btn-primary" @click="incrementCounter()">Increment</button>
         <button type="button" class="btn btn-secondary" @click="resetCounter()">Reset</button>
-    </div>
+    </article>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1 v-once>{{msg}}</h1>
     <h3>v-if: Conditional showing</h3>
     <span v-if="3 < 5">hide me!</span>
@@ -14,7 +14,7 @@
     <h3>v-bind: bind data to the element</h3>
     <span :class="{'redCss':3<5}">v-bind:class span</span>
     <br />
-  </div>
+  </article>
 </template>
 
 <script>

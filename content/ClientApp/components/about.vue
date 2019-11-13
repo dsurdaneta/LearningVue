@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <article>
       <h1 class="mt-4">
         ASP.NET Core & Vue Starter Template
       </h1>
@@ -45,7 +45,7 @@
         </a>
       </div>
 
-    </div>
+    </article>
 </template>
 
 <script>

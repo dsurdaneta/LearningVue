@@ -1,5 +1,5 @@
-﻿<template>
-    <div>
+<template>
+    <article>
         <h1>Weather forecast</h1>
 
         <p>This component demonstrates fetching data from the server.</p>
@@ -42,7 +42,7 @@
                 </ul>
             </nav>
         </template>
-    </div>
+    </article>
 </template>
 
 <script>

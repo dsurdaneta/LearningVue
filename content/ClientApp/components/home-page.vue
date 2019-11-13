@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <article>
       <h1 class="mt-4">
         ASP.NET Core & Vue Starter Template
       </h1>
@@ -51,7 +51,7 @@
       <strong>Github: <a href="https://github.com/trilonio" target="_blank">@Trilon_IO</a></strong>
 
       <br><br><br>
-    </div>
+    </article>
 </template>
 
 <script>

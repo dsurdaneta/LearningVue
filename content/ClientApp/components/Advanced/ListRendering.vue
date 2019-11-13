@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1 v-once>
       {{msg}}
     </h1>
@@ -21,7 +21,7 @@
     <ul>
       <li v-for="n in 10" v-if="n % 2 == 0">{{n}}</li>
     </ul>
-  </div>
+  </article>
 </template>
 
 <script>

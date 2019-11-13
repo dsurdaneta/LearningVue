@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <article>
       <h1 class="mt-4">
         {{msg}}
       </h1>
@@ -10,7 +10,7 @@
       {{3 + 5}}
       {{3 > 5}}
       {{student}}
-    </div>
+    </article>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <article>
     <h1>{{msg}}</h1>
     <h3>Simple Method Declartion</h3>
     <button @click="Hello()">Show Msg</button><br />
@@ -11,7 +11,7 @@
     <h3>Calling Other Methods</h3>
     <button @click="callOther()">Calling Other Methods</button>
     <br />
-  </div>
+  </article>
 </template>
 
 <script>
