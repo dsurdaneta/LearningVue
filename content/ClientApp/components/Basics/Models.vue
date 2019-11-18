@@ -12,8 +12,8 @@
     Checkbox is: {{chkValue}}
     <br />
     <h3>Bind to an array</h3>
-    <input type="checkbox" name="val1" value="Green" v-model="arr" /><br />
-    <input type="checkbox" name="val2" value="Red" v-model="arr" /><br />
+    <label><input type="checkbox" name="val1" value="Green" v-model="arr" /> Green</label><br />
+    <label><input type="checkbox" name="val2" value="Red" v-model="arr" /> Red</label><br />
     color(s): {{arr}}
     <br />
     <h3>bind radio buttons</h3>
