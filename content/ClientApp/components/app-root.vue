@@ -1,14 +1,14 @@
 <template>
-    <div id="app" class="container-fluid">
-        <main class="row">
-            <aside class="col-md-3">
+    <main id="app" class="container-fluid">
+        <section class="row">
+            <header class="col-md-3">
                 <nav-menu params="route: route"></nav-menu>
-            </aside>
+            </header>
             <article class="col-sm-9">
                 <router-view></router-view>
             </article>
-        </main>
-    </div>
+        </section>
+    </main>
 </template>
 
 <script>

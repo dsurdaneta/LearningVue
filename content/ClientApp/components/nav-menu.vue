@@ -1,5 +1,5 @@
-﻿<template>
-    <div class="main-nav">
+<template>
+    <nav class="main-nav">
         <nav class="navbar navbar-expand-md navbar-dark">
             <button class="navbar-toggler" type="button" @click="toggleCollapsed">
                 <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@
                 </div>
             </transition>
         </nav>
-    </div>
+    </nav>
 </template>
 
 <script>
