@@ -2,7 +2,8 @@
   <div>
     <h1>{{msg}}</h1>
     <h3>Child Route Component</h3>
-    Your current route is: {{RouteValue}}
+    <p>This is the child component.</p>
+    <p>Your current route is: {{RouteValue}}</p>
   </div>
 </template>
 
