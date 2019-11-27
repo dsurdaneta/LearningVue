@@ -14,6 +14,7 @@ import Mixins from 'components/Advanced/Mixins'
 import Custom from 'components/Deep/Custom'
 import Filters from 'components/Deep/Filters'
 import Transitions from 'components/Deep/Transitions'
+import StoreHome from 'compponents/Store/Home'
 
 export const routes = [
   { name: 'home', path: '/', component: HomePage, display: 'Home', icon: 'home' },
@@ -24,6 +25,7 @@ export const routes = [
   { name: 'Directives', path: '/Directives', component: Directives, display: 'Directives', icon: 'list' },
   { name: 'DataBinding', path: '/DataBinding', component: DataBinding, display: 'Data Binding', icon: 'info' },
   { name: 'Models', path: '/Models', component: Models, display: 'Models', icon: 'info' },
+  { name: 'StoreHome', path: '/Store/Home', component: StoreHome, display: 'Store Home', icon: 'graduation-cap' },
   {
     name: 'Routes',
     path: '/Routes',
